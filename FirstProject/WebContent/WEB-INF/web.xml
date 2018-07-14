@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://java.sun.com/xml/ns/javaee"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+	version="3.0">
+	<display-name>FirstProject</display-name>
+	<servlet>
+		<servlet-name>AdditionOfNumbers</servlet-name>
+		<servlet-class>test.AddNumbers</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AdditionOfNumbers</servlet-name>
+		<url-pattern>/sum</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>SquareOfTheNumber</servlet-name>
+		<servlet-class>test.SquareOfANumber</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>SquareOfTheNumber</servlet-name>
+		<url-pattern>/square</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>LifeCycleOfServlet</servlet-name>
+		<servlet-class>test.LifeCycle</servlet-class>
+		<init-param>
+			<param-name>FileName</param-name>
+			<param-value>Employee</param-value>
+		</init-param>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>LifeCycleOfServlet</servlet-name>
+		<url-pattern>/life</url-pattern>
+	</servlet-mapping>
+</web-app>

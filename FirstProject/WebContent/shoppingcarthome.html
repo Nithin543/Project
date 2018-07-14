@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="ISO-8859-1">
+	<title>ShoppingCartHome</title>
+</head>
+<style>
+body {
+   background-image: url("cart.jpg");
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   width: 70%;
+   height: 500px;   
+}
+input[type=submit] {
+    width: 50%;
+    background-color: SlateBlue;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+</style>
+<body>
+	<form action="shoppingcartorders.html">
+	<h1 style="color:SlateBlue;"> Shopping Cart - Home Page </h1>
+		<input type="submit" name="get_customer_orders" value="Get Orders">
+	</form>
+	<form action="deleteshoppingcart.html">
+		<input type="submit" name="delete_cart" value="Delete Cart">
+	</form>
+	<form action="addshoppingcart.html">
+		<input type="submit" name="add_cart" value="Add Cart">
+	</form>
+</body>
+</html>

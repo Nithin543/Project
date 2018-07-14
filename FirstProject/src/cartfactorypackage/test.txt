@@ -1,0 +1,23 @@
+	URL = jdbc:mysql://localhost:3306/usa_amaravathi?SSL=false
+    USER = Nithin
+    PASS = 1234
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
